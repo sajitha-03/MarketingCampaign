@@ -1,0 +1,1 @@
+{"Train Accuracy":{"KNN":0.8998359984,"Logistic Regression":0.8901599016,"SVM":0.8959409594,"Decision Tree":0.8925379254},"Test Accuracy":{"KNN":0.8786487373,"Logistic Regression":0.8840603477,"SVM":0.886028206,"Decision Tree":0.8865201705},"Average fit time":{"KNN":2.8838580052,"Logistic Regression":0.5210864842,"SVM":65.2944656213,"Decision Tree":0.3862567544}}
