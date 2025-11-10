@@ -10,17 +10,19 @@ Given a dataset of directed marketing campaigns collected from a Portugese bank,
 
 ## Data Understanding
 The dataset comes from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing). The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns - an aggregate of 17 marketing campaigns. On examining the dataset, the data can be grouped to 3 categories - client profile, campaign attributes and previous data, and economic attributes.
+
 Key observations:
-No missing data and duplicate entries
-Lot of unknown values
-Dataset is imbalanced with only 13% subscribed to the deposit
+- No missing data and duplicate entries
+- Lot of unknown values
+- Dataset is imbalanced with only 13% subscribed to the deposit
 
 ## Data Preparation
-Dropped 'unknown' entries
-Applied StandardScaler to scale on numerical features
-Applied OneHotEncoding on catergorical features
-Split train and test data for simple cross validation
-Dataset after data preprocessing - (30488, 21)
+- Dropped 'unknown' entries
+- Dropped 'duration' feature as it is a post-event variable
+- Applied StandardScaler to scale on numerical features
+- Applied OneHotEncoding on catergorical features
+- Split train and test data for simple cross validation
+- Dataset after data preprocessing - (30488, 20)
 
 ## Modeling
 All features - client, campaign and economic attributes used for modeling. Compared the performance of different models such as KNearestNeighbor, LogisticRegression, DecisionTrees, and SupportVectorMachines.
