@@ -40,7 +40,7 @@ All features - client, campaign and economic attributes used for modeling. Compa
 <img width="419" height="149" alt="Screenshot 2025-11-07 at 7 30 31 PM" src="https://github.com/user-attachments/assets/0d5d8dc4-d866-4a0d-a2f0-f061b09a5fe8" />
 
 
-- All models outperform the baseline (~87%) on the test set.
+- All models except DecisionTree outperform the baseline (~87%) on the test set.
 - Logistic Regression and SVM both yield the best test accuracy (88.5-88.6%).
 - The Decision Tree clearly overfits, achieving 99% on training but drops to 82% on test data.
 - KNN performs decently but is computationally heavier for larger datasets.
