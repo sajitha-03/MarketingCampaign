@@ -30,7 +30,7 @@ All features - client, campaign and economic attributes used for modeling. Compa
 ## Findings
 ### Comparing accuracy score and fit time between classifiers
 
-#### Baseline accuracy: 
+#### Baseline accuracy (DummyClassifier): 
 
 - Baseline Train Accuracy: 87.43%
 - Baseline Test Accuracy: 86.98%
